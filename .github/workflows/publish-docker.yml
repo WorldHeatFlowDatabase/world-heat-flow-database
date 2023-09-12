@@ -30,7 +30,7 @@ jobs:
   #         tags: latest
 
   #     - name: "📦 Build and push image to Docker Hub"
-  #       uses: docker/build-push-action@v3
+  #       uses: docker/build-push-action@v5
   #       with:
   #         context: .
   #         push: true
@@ -59,7 +59,7 @@ jobs:
           tags: latest
 
       - name: "📦 Build and push image to Docker Hub"
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v5
         with:
           file: ./compose/geoluminate/lite
           context: .
