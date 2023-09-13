@@ -91,7 +91,7 @@ toml = "^0.10.2"
 
 
 [tool.poetry.group.production.dependencies]
-sentry-sdk = "^1.22.2"
+sentry-sdk = "^1.31.0"
 
 [build-system]
 requires = ["poetry-core"]
