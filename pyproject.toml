@@ -73,7 +73,7 @@ djangorestframework-stubs = "^1.9.1"
 flake8-isort = "^6.0.0"
 pylint-celery = "^0.3"
 django-debug-toolbar-template-profiler = "^2.1.0"
-werkzeug = {extras = ["watchdog"], version = "^2.2.3"}
+werkzeug = {extras = ["watchdog"], version = "^3.0.0"}
 ipdb = "^0.13.11"
 watchfiles = "^0.18.1"
 django-redis = "^5.2.0"
