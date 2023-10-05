@@ -24,7 +24,7 @@ jobs:
 
   #     - name: Extract metadata (tags, labels) for Docker
   #       id: meta
-  #       uses: docker/metadata-action@v3
+  #       uses: docker/metadata-action@v5
   #       with:
   #         images: "geoluminate/geoluminate"
   #         tags: latest
@@ -53,7 +53,7 @@ jobs:
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
-        uses: docker/metadata-action@v3
+        uses: docker/metadata-action@v5
         with:
           images: "geoluminate/global-heat-flow-database_lite"
           tags: latest
